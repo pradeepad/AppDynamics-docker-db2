@@ -7,8 +7,7 @@
 To build DB2 container import the DB2 images from the location “https://drive.google.com/drive/u/0/folders/0B531weScYzNNYlZHZmZVR2RDcG8” and run below steps
 
 1. Download the images to the local directory
-2. Import from a local file:
-$ docker import – appdynamics_db2.tgz
+2. Navigate into the downloded path or path where downloaded file kept then run:$ docker import – appdynamics_db2.tgz ( Rename downloaded image into .tgz and run ) 
 
 <b>.Running a Container:</b>
 
