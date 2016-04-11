@@ -1,8 +1,8 @@
 # AppDynamics-docker-db2
 
-<b>DB2 Docker images</b>
+<b>DB2 Docker</b>
 
-<b>Building the container images:</b>
+<b>Building DB2 Docker images:</b>
 
 To build DB2 container import the DB2 images from the location “https://drive.google.com/drive/u/0/folders/0B531weScYzNNYlZHZmZVR2RDcG8” and run below steps
 
