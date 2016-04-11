@@ -13,6 +13,10 @@ $ docker import – appdynamics_db2.tgz
 Running a Container:
 
 Run the below command to start the container
+docker run -it -p 50000:50000 -e DB2INST1_PASSWORD=Dreams707 -e LICENSE=accept  <CONTAINER_ID>
+
+NOTE: After pulling the DB2 docker image it is not showing Repository and Tag name as of now in local system( I am working on that to resolve ) so instead of running by repository nameas shown below, running with container ID and it is working. 
+
 docker run -it -p 50000:50000 -e DB2INST1_PASSWORD=Dreams707 -e LICENSE=accept appdynamics/db2:latest bash
 
 Perform CRUD operations through CLI :
